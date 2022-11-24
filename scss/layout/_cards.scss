@@ -7,7 +7,6 @@
   box-shadow: 0 u.rem(15) u.rem(30) u.rem(-11) rgba(u.$color-shadow, .5);
   display: grid;
   grid-template-columns: 1fr min-content;
-  background-color: red;
 
   @include u.breakpoint(large) {
     padding: u.rem(16) u.rem(8);
