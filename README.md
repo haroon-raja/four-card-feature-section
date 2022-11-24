@@ -20,17 +20,21 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Links
 
-- Solution URL: [https://github.com/haroon-raja/qr-code-component](https://github.com/haroon-raja/qr-code-component)
-- Live Site URL: [https://haroon-raja.github.io/qr-code-component](https://haroon-raja.github.io/qr-code-component)
+- Solution URL: [https://github.com/haroon-raja/four-card-feature-section](https://github.com/haroon-raja/four-card-feature-section)
+- Live Site URL: [https://haroon-raja.github.io/four-card-feature-section/](https://haroon-raja.github.io/four-card-feature-section/)
 
 ## My process
 
 ### Built with
 
 - Semantic HTML5 markup
+- CSS custom properties
 - SCSS
-- Flexbox
-- Responsive design
+- CSS Grid
+- Desktop-First Workflow
+
+### Continued development
+In future projects I would like to focus on Mobile-first workflow. And want to become more comfertable when writing media queries
 
 ## Author
 
