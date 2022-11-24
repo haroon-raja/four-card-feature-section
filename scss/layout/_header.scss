@@ -2,21 +2,23 @@
 
 .header {
   display: grid;
-  grid-template-columns: min-content;
-  justify-content: center;
-  max-width: u.rem(1440);
-  padding: u.rem(80) 0;
+  grid-template-columns: 1fr;
+  justify-items: center;
+  margin-bottom: u.rem(80);
 
   &__text-box {
-    color: var(--color-blue-dark);
     text-align: center;
-    width: u.rem(500);
+    //width: u.rem(500);
   }
 }
 
 .heading {
-  font-size: u.rem(36);
   margin-bottom: u.rem(18);
+  line-height: u.rem(60);
+
+  @include u.breakpoint(small) {
+    line-height: u.rem(36);
+  }
 
   &--light {
     font-weight: 200;
@@ -26,5 +28,21 @@
 
 .text {
   font-weight: 400;
-  color: var(--color-blue-gray);
+  padding: 0 u.rem(400);
+
+  @include u.breakpoint(large) {
+    padding: 0 u.rem(250);
+  }
+
+  @include u.breakpoint(medium) {
+    padding: 0 u.rem(150);
+  }
+
+  @include u.breakpoint(small) {
+    padding: 0 u.rem(50);
+  }
+
+  @include u.breakpoint(xsmall) {
+    padding: 0 u.rem(5);
+  }
 }
