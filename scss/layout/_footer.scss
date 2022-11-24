@@ -1,0 +1,13 @@
+@use "../util" as u;
+
+.footer {
+  margin-bottom: u.rem(20);
+  text-align: center;
+
+  .attribution {
+
+    a {
+      color: var(--color-primary-3);
+    }
+  }
+}

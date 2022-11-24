@@ -1,0 +1,11 @@
+@use "../util" as u;
+
+.grid-container {
+  max-width: u.rem(1440);
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(4, min-content);
+  justify-items: center;
+  row-gap: u.rem(30);
+  margin-bottom: u.rem(50);
+}

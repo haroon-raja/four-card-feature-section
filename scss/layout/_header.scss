@@ -1,0 +1,30 @@
+@use "../util" as u;
+
+.header {
+  display: grid;
+  grid-template-columns: min-content;
+  justify-content: center;
+  max-width: u.rem(1440);
+  padding: u.rem(80) 0;
+
+  &__text-box {
+    color: var(--color-blue-dark);
+    text-align: center;
+    width: u.rem(500);
+  }
+}
+
+.heading {
+  font-size: u.rem(36);
+  margin-bottom: u.rem(18);
+
+  &--light {
+    font-weight: 200;
+    display: block;
+  }
+}
+
+.text {
+  font-weight: 400;
+  color: var(--color-blue-gray);
+}
