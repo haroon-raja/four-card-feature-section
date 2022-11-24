@@ -3,7 +3,7 @@
 .feature__card {
   max-width: u.rem(350);
   border-radius: u.rem(8);
-  padding: u.rem(16);
+  padding: u.rem(15);
   box-shadow: 0 u.rem(15) u.rem(30) u.rem(-11) rgba(u.$color-shadow, .5);
   display: grid;
   grid-template-columns: 1fr min-content;
@@ -93,6 +93,7 @@
 
   &-heading {
     font-weight: 600;
+    margin-bottom: u.rem(20);
   }
 
   &-text {
