@@ -16,6 +16,10 @@
   margin-bottom: u.rem(18);
   line-height: u.rem(60);
 
+  @include u.breakpoint(medium) {
+    line-height: u.rem(40);
+  }
+
   @include u.breakpoint(small) {
     line-height: u.rem(36);
   }

@@ -1,5 +1,5 @@
 @use "functions" as f;
-//large=1100,
+//large=1100, medium=900, small=600, xsmall=400
 
 $breakpoints-down: (
   'large': f.em(1100),
