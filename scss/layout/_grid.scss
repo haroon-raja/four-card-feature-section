@@ -2,7 +2,7 @@
 
 .grid-container {
   display: grid;
-  grid-template-columns: repeat(3, minmax(1fr, u.rem(350)));
+  grid-template-columns: repeat(3, minmax(min-content, u.rem(350)));
   grid-template-rows: repeat(4, min-content);
   justify-content: center;
   row-gap: u.rem(30);
@@ -14,7 +14,7 @@
   }
 
   @include u.breakpoint(medium) {
-    grid-template-columns: repeat(2, minmax(1fr, u.rem(350)));
+    grid-template-columns: repeat(2, minmax(min-content, u.rem(350)));
     grid-template-rows: repeat(2, min-content);
   }
 
